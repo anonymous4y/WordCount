@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
-import { Word } from "../components"
+import { Header, Word } from "../components"
 
 export const HomePage = () => {
     return (
         <main>
+            <Header heading='Word Counter' subHeading="Free online character and word counter" />
             <Word />
             <div className="flex justify-center my-10">
                 <Link to='/joke'>

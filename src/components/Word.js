@@ -20,10 +20,6 @@ export const Word = () => {
 
     return (
         <section>
-            <div className='my-10'>
-                <h1 className='text-4xl font-bold  text-center py-2'>Words Counter</h1>
-                <p className='text-xl font-light text-center'>Free online word and character counter</p>
-            </div>
             <div className='mx-32'>
                 <textarea onChange={handleCount} ref={textRef} name="message" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" cols="30" rows="10" placeholder='Type or paste your text'></textarea>
                 <div className='flex items-center justify-center'>
